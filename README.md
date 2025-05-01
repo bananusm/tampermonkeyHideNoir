@@ -128,7 +128,8 @@ The script will now run automatically when you visit a Reed.co.uk job listing pa
      console.log("monkey load")
      hideJobCards()
 })();
-How it Works
+```
+# How It Works
 The script uses PerformanceObserver to detect when a specific API request (https://api.reed.co.uk/api-bff-jobseeker-jobs/profile/) has completed. This helps ensure that the job listings are loaded before the script attempts to modify them.
 
 Once the target request is detected, the script finds all elements with the data-qa="job-card" attribute. For each card, it checks if it contains a link with /jobs/noir in its URL (usually found within the company logo link). If such a link is found and the card is not already marked as hidden, the script triggers a click event on the "Hide Job" button within that card.
