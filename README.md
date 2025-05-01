@@ -26,8 +26,8 @@ The script will now run automatically when you visit a Reed.co.uk job listing pa
 // @name          Reed hide jobs
 // @namespace     [http://tampermonkey.net/](http://tampermonkey.net/)
 // @version       2025-05-01
-// @description   try to take over the world! // TODO: Update description
-// @author        You // TODO: Replace with your name/alias
+// @description   hide Noir listings on reed.co.uk
+// @author        Matt Baran
 // @match         [https://www.reed.co.uk/jobs/](https://www.reed.co.uk/jobs/)*
 // @icon          [https://www.google.com/s2/favicons?sz=64&domain=reed.co.uk](https://www.google.com/s2/favicons?sz=64&domain=reed.co.uk)
 // @grant         none
