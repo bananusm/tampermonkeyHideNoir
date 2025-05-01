@@ -2,7 +2,7 @@ Markdown
 
 # Reed Hide Jobs
 
-A Tampermonkey script to automatically hide specific job listings on Reed.co.uk.
+A Tampermonkey script to automatically hide Noir job listings on Reed.co.uk. You can adapit to hide hide other listings as well
 
 ## Description
 
