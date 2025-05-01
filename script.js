@@ -64,7 +64,7 @@
 
         console.log('Target request finished! Now running the rest of the code.');
 
-        await new Promise(resolve => setTimeout(resolve, 800)); // Wait for 200 milliseconds
+        await new Promise(resolve => setTimeout(resolve, 800)); 
 
         const jobCards = document.querySelectorAll('[data-qa="job-card"]');
         for (const card of jobCards) {
